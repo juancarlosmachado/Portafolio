@@ -1,0 +1,23 @@
+.rodapie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    height: auto;
+    background: #fff;
+}
+
+.rodapie__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodapie__cont--text{
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: #464646;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
