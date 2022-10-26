@@ -1,9 +1,10 @@
 .head{
-    background-color: #FFF;
+    background: #103D4A;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: #fff;
 }
 
 .head__titulo {

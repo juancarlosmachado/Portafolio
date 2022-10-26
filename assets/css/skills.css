@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    
+    background: linear-gradient(#CFFADA, #fff);
 }
 
 .skills__titulo {
@@ -11,8 +11,7 @@
     font-size: 48px;  
     text-align: center;
     color: #464646;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 2rem;
 }
 
 .skills__line{
@@ -36,9 +35,8 @@
 
 .skills__box:hover{
     background: #d8e8f1;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
-
 
 .skills__box--list{
     display: flex;

@@ -4,12 +4,12 @@
     align-items: center;
     padding: 64px;
     gap: 10px;
-    background: #EAF2FD;
+    background: linear-gradient(#fff, #CFFADA);
 }
 
 .sobremi__container{
     width: 100%;
-    margin-left: 10rem;
+    margin-left: 4rem;
 }
 
 .sobremi__titulo {
