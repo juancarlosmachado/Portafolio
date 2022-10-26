@@ -24,3 +24,20 @@
     padding: 20px;
     display: block;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .head {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .head__menu--lista{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}

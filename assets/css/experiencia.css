@@ -93,3 +93,51 @@
 .experiencia__box__img{
     box-shadow: 0px 0px 19px -1px #888888;    
 }
+
+@media only screen and (max-width: 600px) {
+
+    .experiencia {
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+    .experiencia__box__1,
+    .experiencia__box__3 {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 0;
+        background: linear-gradient(#fff, #CFFADA);
+    }
+
+    .experiencia__box__2,
+    .experiencia__box__4 {
+        width: 100%;
+        flex-direction: column;
+        background: linear-gradient(#CFFADA, #fff);
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .experiencia__box__titulo,
+    .experiencia__box__text {
+        padding-left: 2rem;
+    }
+
+    .experiencia__box__img {
+        width: 90%;
+    }
+
+    .experiencia__box__boton--repo,
+    .experiencia__box__boton--demo {
+        width: 150px;
+    }
+
+    .box__img{
+        width: 60%;
+        padding-top: 1rem;
+    }
+}
