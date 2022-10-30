@@ -73,3 +73,18 @@
     }
 
 }
+
+@media (max-width: 800px) {
+    .hobbies__line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    .hobbies__box {
+        margin-top: 6%;
+    }
+}

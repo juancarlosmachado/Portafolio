@@ -63,7 +63,7 @@
     margin-top: 1%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 479px) {
     .titulo {
         display: flex;
         flex-direction: column;
@@ -73,6 +73,36 @@
 
     .titulo__perfil{
         width: 180px;
+    }
+
+    .titulo__bio{
+        align-self: flex-start;
+        text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 20px;
+        margin: 5%;
+    }
+
+    .titulo__subsection{
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        margin: 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo__perfil{
+        width: 280px;
     }
 
     .titulo__bio{
