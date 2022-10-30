@@ -1,9 +1,11 @@
+@media (min-width: 1000px) {
 .titulo {
     background-color: #FFF;
     display: grid;
     grid-template-columns: 55% 25%;
     grid-template-rows: 40% 20% 30%;
     justify-content: space-evenly;
+    padding-top: 2%;
 }
 
 .titulo__perfil{
@@ -61,6 +63,7 @@
     color: #464646;
     margin-right: 1.85rem;
     margin-top: 1%;
+}
 }
 
 @media only screen and (max-width: 479px) {
